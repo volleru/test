@@ -10,6 +10,7 @@ pipeline{
             steps{
 				bat 'mvn --version'
 				bat 'java --version'
+		    		echo 'hello'
   
              }
        
